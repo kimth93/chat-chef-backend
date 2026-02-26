@@ -1,5 +1,10 @@
 {
   "type": "module",
+  "name": "chat-chef-backend",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
