@@ -9,7 +9,15 @@ dotenv.config();
 const app = express();
 
 //cors
-app.use(cors());
+// app.use(cors());
+// index.js
+const corsOption = {
+  origin: process.env.CLIENT_URL,
+  credentials: true,
+};
+
+app.use(cors(corsOption));
+
 //json 설정
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
