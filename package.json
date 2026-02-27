@@ -3,7 +3,7 @@
   "name": "chat-chef-backend",
   "scripts": {
     "start": "nodemon server.js",
-    "dev": "nodemon server.js"
+    "dev": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.6",
